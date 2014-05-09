@@ -1,0 +1,301 @@
+/*Below is the formatting for the login page*/
+
+	#body_login{
+		background: url(back.png);
+		font-family: verdana;
+	}
+	#er p
+	{
+		color: red;
+		font-weight: bold;
+		padding-bottom: 15px;
+		margin:0px 0px 0px 0px;
+	}
+	.container_login{
+		background-color: rgba(141, 209, 159, 0.4);
+		text-align: center;
+		height: 80%;
+		width:75%;
+		border: groove;
+		border-color: #1A334C;
+		border-radius: 10px;
+		margin: 110px 0px 0px 200px;
+	}
+	.container_login h1{
+		color: white;
+		text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
+		font-size: 500%;
+		margin-bottom: 25px; margin-top: 10px;
+	}
+	.login_box{
+		width: 1000px;
+		height: 35%;
+		background-color: grey;
+		text-align: center;
+		display: inline-block;
+		border: groove;
+		border-color: #1A334C;
+		border-radius: 10px;
+		padding-top: 100px;
+	}
+
+	#body_login input{
+		border:hidden;
+		border-radius: 3px; 
+		padding: 10px 10px 10px 10px;
+		font-size: large;
+	}
+	#but{
+		background-color: rgba(0, 0, 0, 0.7);
+		color: white;
+	}
+	#log_lab{
+		color:white;
+		font-size: large;
+		font-weight: bold;
+	}
+
+/*Below is the formatting for the Profile page*/
+		#body_title h2{
+			color: #3E3D3E;
+			display: inline-block;
+			font-size: 250%;
+			margin: 5px 0px 15px 0px;
+		}
+		#body{
+			display: inline-block;
+			width: 100%;
+			background-color: rgba(255, 255, 255, 0.5);
+			margin-bottom: 0px;
+		}
+		#body_title h4{
+			color: grey;
+			margin: 3px 0px 0px 10px;
+			padding-right: 0px;
+			display: block;
+		}
+		.welcome{
+			font-weight: bold;
+			padding-bottom: 100px;
+		}
+		#body_pic{
+			width:300px;
+			margin: 5px 0px 0px 15px;
+		}
+		#body_profile{
+			background:url(back.png);
+			font-family: verdana;
+		}
+		.container_profile{
+			width:80%;
+			border: solid;
+			border-color: white;
+			border-radius: 5px;
+			margin: 0% 9%;
+
+		}
+		#head{
+			height:70px;
+			width: 98.4%;
+			background-color: rgba(141, 209, 159, 0.4);
+			color: white;
+			padding: 12px 10px 8px 10px;
+			font-size: 100%;
+			border-bottom: solid;
+			border-color: white;
+			display: inline-block;	
+		}
+		#head label{
+			display: inline-block;
+			margin-top: 0%;
+			padding: 0% 0%;
+		}
+		#head a{
+			display: inline-block;
+			margin-left: 43%;
+		}
+		#the_wall{
+			font-size: large;
+			font-weight: bold;
+			padding: 30px 500px 30px 5px;
+			margin-top: 10px;
+			font-size: 300%;
+			text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
+		}
+		#body_title{
+			padding: 0px 0px 0px 8px;
+			width: 100%;
+			margin-right:5px;
+		}
+		.message_div{
+			margin: 0px 10px 0px 10px;
+			padding: 5px 5px 5px 5px;
+			font-size: medium;
+			border:hidden;
+			background-color: rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+			color: black;
+
+		}
+		.comment_div{
+			color: black;
+			font-weight: small;
+		}
+		.message_time{
+			font-style: italic;
+			color: white;
+			padding-left: 10px; 
+		}
+		.message_name{
+			padding-left: 10px;
+			font-size: large;
+			font-weight: bold;
+		}	
+		.message_body{
+			padding-left: 40px;
+		}
+		.message_div{
+			
+		}
+		#body1 input{
+			padding: 10px 10px 10px 10px;
+			background-color: rgba(141, 209, 159, 0.9);
+			color: white;
+			border: hidden;
+			border-radius: 5px;
+			margin: 0px;
+		}
+		#body1 textarea{
+			border-radius: hidden;
+			border-radius: 10px;
+			padding: 5px 0px 0px 5px;
+			margin: 10px 0px 0px 10px;
+			font-family: Geneva, Tahoma, Verdana, sans-serif;
+			font-size: medium;
+		}
+		textarea{
+			font-family: Geneva, Tahoma, Verdana, sans-serif;
+		}
+		#body1 input{
+			margin-left: 1%; margin-bottom: 1%;
+		}
+		.com_name{
+			color:black;
+			padding-left: 10px;padding-top:15px;
+			font-weight: bold;
+		}
+		.comment_time{
+			color: white;
+			padding-left: 10px;
+			font-style: italic;
+		}
+		.comments_posted{
+			margin: 15px 35px 15px 35px;
+
+			color:black;
+		}
+		.comment_time{
+			color:darkgrey;
+		}
+
+		.com_post{
+			color:black;
+			padding-left: 40px;
+			font-style: small;
+		}
+		#form2 input{
+			padding: 10px 10px 10px 10px;
+			background-color: rgba(141, 209, 159, 0.9);
+			color: white;
+			border: hidden;
+			border-radius: 5px;
+			margin: 5px 0px 30px 15px;		
+		}
+		#form2 textarea{
+			border-radius: hidden;
+			border-radius: 10px;
+			padding: 5px 0px 0px 20px;
+			margin: 15px 0px 0px 10px;
+		}
+		#body1{
+			background-color: rgba(255, 255, 255, 0.5);
+			width: 100%;
+			margin: 0% 0%;
+		}
+		.wall{
+			background-color: #E6E6E6;
+			border-top:groove;
+			padding-top:1%;
+		}
+		#person_name{
+			font-size: 200%;
+			font-weight: bold;
+			color: #585858;
+
+		}
+		#person_email{
+			font-style: italic;
+
+		}
+		#person_birth{
+			font-style: italic;
+		}
+
+/*Below is formatting for the User registration page*/
+.wrapper{
+	text-align: center;
+}
+	.reg_fo{
+		color:#B4C6A7;
+		font-family: verdana;
+		font-size: 350%;
+		text-align: center;
+		text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+	}
+	.container_reg{
+		width: 100%;
+		display: inline-block;
+		font-family: verdana;
+		text-align: center;
+	}
+	#user_reg_bod{
+		background: url(back.png);
+	}
+	#error_mes{
+		padding-top: 5px;
+		background-color: transparent;
+		text-align: left;
+		color:red;
+		font-weight: bold;
+		width: 330px;
+		height: 275px;
+		margin-top: 0px;
+		
+		
+	}
+	#user_reg_form{
+		background-color: rgba(255, 255, 255, 0.4);
+		text-align: center;
+		border: groove;
+		padding-top: 10px;
+		border-color: #1A334C;
+		border-radius: 10px;
+		width: 25%;
+		margin-left: 38%;
+	}
+	#sub{
+		margin-top: 50px;
+		background-color:#202021;
+		color: white;
+		border: hidden;
+		padding: 3px 3px 3px 3px;
+		border-radius: 5px;
+	}
+	#reg_form input{
+		padding:5px 5px 5px 5px;
+		border:hidden;
+		width: 325px;
+		border-radius: 3px; 
+		margin: 10px 0px 0px 0px;
+		font-size: large;
+	}
